@@ -64,6 +64,9 @@ html,body{
 font-family: 'bonvenocflight';	
 	
 }
+p{
+	padding-top:15px;	
+}
 .menu{
   position:fixed;
   list-style:none;
