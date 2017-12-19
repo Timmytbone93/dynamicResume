@@ -104,6 +104,8 @@ p{
 }
 .title{
 	
+	position:absolute;
+	left:0;
 	width:25%;
 }
 .title h1{
