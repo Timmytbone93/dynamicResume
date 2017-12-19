@@ -77,18 +77,7 @@ $('.topDock').css({top:halfWayHeight-(menuHeight/2)});
 
 
 
-//align menu items
-var dockWidth = $('.dock').width();
 
-var ammountOfMenuItems = $('.menu li').length;
-
-var liWidth = dockWidth/ammountOfMenuItems
-
-$('.menu li').each(function(){
-
-  $(this).css({width:liWidth});
-
-});
 //check session sessionStorage
 if(sessionStorage.getItem('menuAnimation')=="Seen"){
   $('.topDock').css({top:'0px',height:'+=10%'});
