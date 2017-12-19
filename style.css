@@ -76,11 +76,12 @@ p{
 	
 }
 .menu{
-  margin-left:25%;
+  position:absolute;
+  left:25%;
   list-style:none;
   width:75%;	
   padding:0;
-  height:25%;
+  
 
 
 }
