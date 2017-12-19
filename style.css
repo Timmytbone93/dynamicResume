@@ -3,6 +3,20 @@
    License: none (public domain)
 */
 
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('BonvenoCF-Light-webfont.eot');
+    src: url('BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+url('BonvenoCF-Light-webfont.woff') format('woff'),
+url('BonvenoCF-Light-webfont.ttf') format('truetype'),
+url('BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,6 +59,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+html,body{
+font-family: 'bonvenocflight';	
+	
 }
 .menu{
   position:fixed;
