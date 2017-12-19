@@ -6,7 +6,7 @@ $(window).on('load',function(){
   var url = window.location.href;
   console.log(url);
   if(/#me/.test(url)){
-    $('.filler').load("../views/me.html");
+    $('.filler').load("me.html");
     $('.filler').css({zIndex:'200'});
     $('.menu li a').each(function(){
       if($(this).attr('href')=="#me"){
@@ -16,7 +16,7 @@ $(window).on('load',function(){
     });
   }
   if(/#skills/.test(url)){
-    $('.filler').load("../views/skills.html");
+    $('.filler').load("skills.html");
     $('.filler').css({zIndex:'200'});
     $('.menu li a').each(function(){
       if($(this).attr('href')=="#skills"){
@@ -26,7 +26,7 @@ $(window).on('load',function(){
     });
   }
   if(/#schooling/.test(url)){
-    $('.filler').load("../views/schooling.html");
+    $('.filler').load("schooling.html");
     $('.filler').css({zIndex:'200'});
     $('.menu li a').each(function(){
       if($(this).attr('href')=="#schooling"){
@@ -37,7 +37,7 @@ $(window).on('load',function(){
 
   }
   if(/#experiance/.test(url)){
-    $('.filler').load("../views/experiance.html");
+    $('.filler').load("experiance.html");
     $('.filler').css({zIndex:'200'});
     $('.menu li a').each(function(){
       if($(this).attr('href')=="#experiance"){
@@ -139,25 +139,25 @@ switch(href){
 
   case "me":
 
-  $('.filler').load("../views/me.html");
+  $('.filler').load("me.html");
   $('.filler').css({zIndex:'200'});
 
   break;
   case "skills":
 
-  $('.filler').load("../views/skills.html");
+  $('.filler').load("skills.html");
   $('.filler').css({zIndex:'200'});
 
   break;
   case "schooling":
 
-$('.filler').load("../views/schooling.html");
+$('.filler').load("schooling.html");
 $('.filler').css({zIndex:'200'});
 
   break;
   case "experiance":
 
-$('.filler').load("../views/experiance.html");
+$('.filler').load("experiance.html");
 $('.filler').css({zIndex:'200'});
 
   break;
