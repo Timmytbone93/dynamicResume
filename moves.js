@@ -75,7 +75,7 @@ var halfWayHeight = windowHeight/2;
 var dockHeight = $('.topDock').height();
 $('.topDock').css({top:halfWayHeight-(dockHeight/2)});
 
-$('.menu').css({top:dockHeight/2});
+$('.menu').css({position:'fixed',top:dockHeight/2});
   
   
   
