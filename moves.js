@@ -84,7 +84,7 @@ $('.topDock').css({top:halfWayHeight-(dockHeight/2)});
 
 //check session sessionStorage
 if(sessionStorage.getItem('menuAnimation')=="Seen"){
-  $('.topDock').css({top:'0px',height:'+=10%'});
+  $('.topDock').css({top:'0px'});
   $('.topDock').css({background:'#FFFF7F'});
 
 
@@ -115,10 +115,10 @@ $(this).css({color:'red'});
 //check session var
 if(sessionStorage.getItem("menuAnimation")!="Seen"){
 
-  $('.menu').animate({top:'0px',height:'+=10%'},700);
-  $('.menu').css({width:'100%',left:'0',background:'#FFFF7F'});
+  $('.topDock').animate({top:'0px'},700);
+  $('.topDock').css({background:'#FFFF7F'});
   $('.menu li').css({paddingTop:"+=1%"});
-  $('.title').animate({top:"+=10%",zIndex:"100"});
+ 
   sessionStorage.setItem("menuAnimation","Seen");
 }
 
