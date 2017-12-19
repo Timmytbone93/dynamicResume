@@ -73,7 +73,7 @@ $(function(){
 var windowHeight = $(window).height();
 var halfWayHeight = windowHeight/2;
 var dockHeight = $('.topDock').height();
-$('.topDock').css({top:halfWayHeight-(menuHeight/2)});
+$('.topDock').css({top:halfWayHeight-(dockHeight/2)});
 
 $('.menu').css({top:dockHeight/2});
   
