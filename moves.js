@@ -91,10 +91,9 @@ $('.menu li').each(function(){
 });
 //check session sessionStorage
 if(sessionStorage.getItem('menuAnimation')=="Seen"){
-  $('.menu').css({top:'0px',height:'+=10%'});
-  $('.menu').css({width:'100%',left:'0',background:'#FFFF7F'});
-  $('.menu li').css({paddingTop:"+=1%"});
-  $('.title').css({top:"+=10%",zIndex:"100"});
+  $('.topDock').css({top:'0px',height:'+=10%'});
+  $('.topDock').css({background:'#FFFF7F'});
+
 
 }
 
