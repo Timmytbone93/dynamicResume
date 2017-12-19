@@ -78,13 +78,9 @@ p{
 .menu{
  
   list-style:none;
-  height:10%;
-
-  width:75%;
-	left:25%;
+  width:75%;	
   padding:0;
   margin:0;
-
 
 }
 .menu li{
