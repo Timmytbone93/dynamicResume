@@ -94,6 +94,7 @@ p{
 .title{
   position:fixed;
   left:10%;
+	width:20%;
 }
 .title h1{
   font-size:1em;
