@@ -72,17 +72,17 @@ $(function(){
 
 var windowHeight = $(window).height();
 var halfWayHeight = windowHeight/2;
-var menuHeight = $('.menu').height();
-$('.menu').css({top:halfWayHeight-(menuHeight/2)});
+var menuHeight = $('.topDock').height();
+$('.topDock').css({top:halfWayHeight-(menuHeight/2)});
 
 
 
 //align menu items
-var windowWidth = $(window).width();
+var dockWidth = $('.dock').width();
 
 var ammountOfMenuItems = $('.menu li').length;
 
-var liWidth = windowWidth/ammountOfMenuItems
+var liWidth = dockWidth/ammountOfMenuItems
 
 $('.menu li').each(function(){
 
