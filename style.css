@@ -104,6 +104,11 @@ p{
   -moz-box-shadow: 0px 2px  0px  rgba(0,0,0,0.9);
   -webkit-box-shadow: 0px 2px 0px  rgba(0,0,0,0.9);
   -o-box-shadow: 0px 2px 0px  rgba(0,0,0,0.9);
+	
+   box-shadow: 0px 5px  0px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 5px  0px  rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 5px 0px  rgba(0,0,0,0.7);
+  -o-box-shadow: 0px 5px 0px  rgba(0,0,0,0.7);
  
 }
 .menu li a:after{
