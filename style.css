@@ -108,12 +108,18 @@ p{
 .menu li a:after{
 	
 
-    height:16px;
-    background: #999;
-	  opacity:0.1;
-	  border-radius:100%;
-	  margin:32px 0px 0px 0px;
-	  top:100px;
+    content: '';
+    display: block;
+    
+    
+    bottom: 0px;
+    width: 80%;
+    max-width: 210px;
+    height: 10px;
+    background: transparent;
+    border-radius: 100px/50px;
+    box-shadow: 0 50px 40px rgba(0,0,0,0.5);
+}
 	
 	
 	
